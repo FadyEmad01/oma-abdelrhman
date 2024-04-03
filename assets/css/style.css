@@ -7,6 +7,7 @@
     --black: black;
 
 }
+
 /* === (swiper) === */
 .swiper {
     width: 100%;
@@ -48,6 +49,7 @@ body {
 #header .nav-item .nav-link {
     color: var(--white-color);
 }
+
 @media (max-width: 992px) {
     #header .navbar {
         background-color: var(--black);
@@ -122,7 +124,7 @@ body {
     /* Add dark mode styles here if needed */
 }
 
-#hero .text-offWhite{
+#hero .text-offWhite {
     color: var(--white-colo-hover);
 }
 
@@ -132,14 +134,16 @@ body {
 /* ///////////////////////////////////////////////////////////// */
 
 
-#ProductsWeOffer{
+#ProductsWeOffer {
     background-color: var(--red);
 }
-#ProductsWeOffer .card{
-    
+
+#ProductsWeOffer .card {
+
     border-radius: 16px;
 }
-#ProductsWeOffer .card img{
+
+#ProductsWeOffer .card img {
     aspect-ratio: 4/3;
     object-fit: cover;
     border-radius: 18px;
@@ -149,9 +153,10 @@ body {
 /* =====================(WhyUs-section)========================= */
 /* ///////////////////////////////////////////////////////////// */
 
-#WhyUs video{
+#WhyUs video {
     border-radius: 16px;
 }
+
 #WhyUs .video-container {
     position: relative;
     width: 100%;
@@ -186,17 +191,137 @@ body {
 }
 
 #WhyUs .play-button i {
-    color: var(--red); /* Change the color of the play icon */
+    color: var(--red);
+    /* Change the color of the play icon */
 }
- 
+
 #WhyUs .circle {
-    background-color: #DFDCFC; 
+    background-color: #DFDCFC;
     border-radius: 50%;
     aspect-ratio: 1/1;
     width: 70px;
     text-align: center;
     align-content: center;
     color: #473BF0;
-    
+
 }
 
+/* ///////////////////////////////////////////////////////////// */
+/* ===========================(new-section)===================== */
+/* ///////////////////////////////////////////////////////////// */
+
+#new {
+    background-color: #6D6F71;
+}
+
+
+/* ///////////////////////////////////////////////////////////// */
+/* =======================(contactUs-section)=================== */
+/* ///////////////////////////////////////////////////////////// */
+
+#contactUs {
+    background-image: url("../img/Rectangle.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#contactUs::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.772);
+    /* Black overlay with 50% opacity */
+}
+
+#contactUs .fa-comment {
+    color: var(--red);
+    background-color: #5E5A55;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 70px;
+    text-align: center;
+    align-content: center;
+}
+
+#contactUs .form-label {
+    color: var(--red);
+    font-weight: 700;
+}
+
+#contactUs .card {
+    border-radius: 18px;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+/* =====================(visitOurStore-section)================= */
+/* ///////////////////////////////////////////////////////////// */
+
+#visitOurStore {
+    background-color: var(--red);
+}
+
+#visitOurStore .text-red {
+    color: var(--red);
+}
+
+#visitOurStore h2 {
+    color: var(--white-color);
+}
+
+#visitOurStore .card-bg {
+    background-color: #6D6F71;
+    border-radius: 18px;
+}
+
+#visitOurStore .gradiant-line::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    z-index: 1;
+    background-color: white;
+    /* Black overlay with 50% opacity */
+}
+
+#visitOurStore .text-postion::after {
+    content: '';
+    position: absolute;
+    bottom: -10.5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 1;
+    background-color: var(--red);
+    /* Black overlay with 50% opacity */
+}
+
+#visitOurStore .card-swiper {
+    background-color: #dddddd;
+    border-radius: 16px;
+    border: 0;
+}
+
+#visitOurStore .card-swiper .card-body {
+    border-radius: 26px 26px 16px 16px;
+    background-color: white;
+}
+
+#visitOurStore .card img {
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+#visitOurStore .card-sale {
+    border-radius: 16px 16px 0px 16px;
+}

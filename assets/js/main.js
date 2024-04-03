@@ -113,6 +113,43 @@ var swiper = new Swiper("#ProductsWeOffer .swiper", {
       },
     },
 });
+var swiper = new Swiper("#visitOurStore .swiper", {
+  slidesPerView: 4,
+  spaceBetween: 20,
+  effect: "coverflow",
+  loop: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: true,
+  },
+  grabCursor: true,
+  reverseDirection: false,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 1,
+    modifier: 5,
+    slideShadows: false,
+  },
+  breakpoints: {
+      320: {
+        slidesPerView: 1,
+        loop: true,
+        // enabled: true,
+      },
+      576: {  
+        slidesPerView: 2,
+        // enabled: false,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+      1500: {
+        slidesPerView: 3,
+      },
+    },
+});
 
 
 
