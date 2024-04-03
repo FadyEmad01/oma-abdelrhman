@@ -34,10 +34,18 @@
 body {
     color: var(--white-color);
 }
+.text-red {
+    color: var(--red);
+}
 
 .btn-red {
     background-color: var(--red);
     color: var(--white-color);
+    transition: .2s;
+}
+.btn-white {
+    background-color: var(--white-color);
+    color: var(--red);
     transition: .2s;
 }
 
@@ -226,7 +234,7 @@ body {
     background-repeat: no-repeat;
     height: auto;
     position: relative;
-    z-index: 1;
+    z-index: -1;
 }
 
 #contactUs::before {
@@ -236,7 +244,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: -2;
     background-color: rgba(0, 0, 0, 0.772);
     /* Black overlay with 50% opacity */
 }
@@ -324,4 +332,118 @@ body {
 
 #visitOurStore .card-sale {
     border-radius: 16px 16px 0px 16px;
+}
+
+/* ///////////////////////////proudatct-page////////////////////////// */
+
+/* ///////////////////////////////////////////////////////////// */
+/* =====================(ProductsWeOffer-section)================= */
+/* ///////////////////////////////////////////////////////////// */
+
+.productweoffer_product-page .row-Margin{
+   margin-bottom: -40px;
+}
+
+#contactUs-ProudactPage {
+    background-image: url("../img/Rectangle.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+.productweoffer_product-page .row-Margin-lg{
+    margin-bottom: -40px;
+ }
+ @media (max-width: 992px){
+    .productweoffer_product-page .row-Margin-lg{
+        margin-bottom: -0px;
+     }
+}
+/*
+@media (max-width: 768px){
+    #contactUs-ProudactPage {
+        height: 300vh;
+    }
+} */
+
+#contactUs-ProudactPage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: rgba(0, 0, 0, 0.772);
+    /* Black overlay with 50% opacity */
+}
+#contactUs-ProudactPage .card  {
+
+    border-radius: 16px;
+}
+#contactUs-ProudactPage .card img {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+
+/* ///////////////////////////contact-page////////////////////////// */
+
+/* ///////////////////////////////////////////////////////////// */
+/* =====================(ProductsWeOffer-section)================= */
+/* ///////////////////////////////////////////////////////////// */
+
+.row-margin{
+    margin-bottom: -40px;
+}
+.text-bg-red{
+    background-color: var(--red);
+    color: var(--white-color);
+}
+
+.form-control {
+	border-radius: 0;
+    width: 35%;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+    background-color: transparent;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+    background-color: transparent;
+	border-color: var(--red);
+}
+.form-label {
+	color: var(--red);
+    font-weight: bolder;
+    text-align: left;
+    margin: 10px;
+	
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+
+
+
+.contact-us-page .card{
+    border-radius: 18px;
+}
+.contact-us-page .card-red{
+   background-color: var(--red);
+   color: var(--white-color);
+}
+.contact-us-page .card img{
+    aspect-ratio: 4/3;
+    border-radius: 16px;
+}
+.contact-us-page .card .btn-blur{
+    background-color: #722627;
+    color: var(--white-color);
 }
