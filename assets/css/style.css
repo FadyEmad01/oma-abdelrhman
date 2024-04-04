@@ -54,6 +54,11 @@ body {
     color: var(--white-color);
 }
 
+.card-red{
+    background-color: var(--red);
+    color: var(--white-color);
+ }
+
 #header .nav-item .nav-link {
     color: var(--white-color);
 }
@@ -446,4 +451,153 @@ body {
 .contact-us-page .card .btn-blur{
     background-color: #722627;
     color: var(--white-color);
+}
+
+
+/* ///////////////////////////story-page////////////////////////// */
+
+/* ///////////////////////////////////////////////////////////// */
+/* =====================(ProductsWeOffer-section)================= */
+/* ///////////////////////////////////////////////////////////// */
+
+#ProductsWeOffer-story {
+    background-color: var(--red);
+     height: 90vh;
+    /*margin-bottom: 200px; */
+}
+.storyCard1{
+    aspect-ratio: 16/9;
+    border-radius: 18px;
+    border: 0;
+    position: relative;
+    top: -330px;
+    z-index: 9999;
+    /* padding-top: -300px; */
+}
+.storyCard1 img{
+    border-radius: 17px 0px 0px 17px;
+    object-fit: cover;
+}
+@media (max-width: 992px){
+    .storyCard1{
+        aspect-ratio: auto;
+        top: -430px;
+    }
+    .storyCard1 img{
+        border-radius: 17px 17px 0px 0px;
+        object-fit: cover;
+    }
+    #ProductsWeOffer-story {
+        background-color: var(--red);
+         height: 90vh;
+       /* margin-bottom: 370px; */
+    }
+}
+
+/* ///////////////////////////////////////////////////////////// */
+/* =====================(WhyUs-section)================= */
+/* ///////////////////////////////////////////////////////////// */
+
+#WhyUs-story{
+    height: 90vh;
+    /* padding-top: 100px; */
+    /* background-color: #DFDCFC; */
+}
+.storyCard2{
+    aspect-ratio: 16/9;
+    border-radius: 18px;
+    border: 0;
+    position: relative;
+    top: -230px;
+    z-index: 9999;
+    /* padding-top: -300px; */
+}
+.storyCard2 img{
+    border-radius: 17px 0px 0px 17px;
+    object-fit: cover;
+}
+@media (max-width: 992px){
+    #WhyUs-story{
+        height: 90vh;
+        
+        /* padding-top: 50px; */
+    }
+    .storyCard2{
+        aspect-ratio: auto;
+        top: -330px;
+    }
+    .storyCard2 img{
+        border-radius: 17px 17px 0px 0px;
+        object-fit: cover;
+    }
+ 
+}
+
+/* ///////////////////////////////////////////////////////////// */
+/* =====================(contactUs-section)================= */
+/* ///////////////////////////////////////////////////////////// */
+
+
+#contactUs-story {
+    background-image: url("../img/Rectangle.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    position: relative;
+    z-index: 0;
+
+    /* padding-top: 240px;*/
+    height: 90vh; 
+}
+/* @media (max-width: 992px){
+  
+} */
+
+#contactUs-story::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-color: rgba(0, 0, 0, 0.772);
+   
+}
+.storyCard3{
+    aspect-ratio: 16/9;
+    border-radius: 18px;
+    border: 0;
+    position: relative;
+    top: -120px;
+    z-index: 9999;
+    /* padding-top: -300px; */
+}
+.storyCard3 img{
+    border-radius: 17px 0px 0px 17px;
+    object-fit: cover;
+}
+@media (max-width: 992px){
+    .storyCard3{
+        aspect-ratio: auto;
+        top: -220px;
+    }
+    .storyCard3 img{
+        border-radius: 17px 17px 0px 0px;
+        object-fit: cover;
+    }
+ 
+}
+
+/* ///////////////////////////////////////////////////////////// */
+/* =====================(visitOurStore-section)================= */
+/* ///////////////////////////////////////////////////////////// */
+
+
+
+#visitOurStore-story {
+    background-color: var(--red);
+    /* padding-top: 200px;
+    padding-bottom: 200px; */
 }
