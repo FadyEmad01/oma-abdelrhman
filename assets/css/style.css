@@ -480,8 +480,9 @@ body {
 }
 @media (max-width: 992px){
     .storyCard1{
-        aspect-ratio: auto;
+        /* aspect-ratio: auto; */
         top: -430px;
+        aspect-ratio: 9/20;
     }
     .storyCard1 img{
         border-radius: 17px 17px 0px 0px;
@@ -523,8 +524,9 @@ body {
         /* padding-top: 50px; */
     }
     .storyCard2{
-        aspect-ratio: auto;
+        /* aspect-ratio: auto; */
         top: -330px;
+        aspect-ratio: 9/20;
     }
     .storyCard2 img{
         border-radius: 17px 17px 0px 0px;
@@ -580,8 +582,9 @@ body {
 }
 @media (max-width: 992px){
     .storyCard3{
-        aspect-ratio: auto;
+        /* aspect-ratio: auto; */
         top: -220px;
+        aspect-ratio: 9/20;
     }
     .storyCard3 img{
         border-radius: 17px 17px 0px 0px;
