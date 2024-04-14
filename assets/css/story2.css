@@ -465,133 +465,6 @@ body {
 #visitOurStore .card-sale {
     border-radius: 16px 16px 0px 16px;
 }
-
-/* ///////////////////////////proudatct-page////////////////////////// */
-
-/* ///////////////////////////////////////////////////////////// */
-/* =====================(ProductsWeOffer-section)================= */
-/* ///////////////////////////////////////////////////////////// */
-
-.productweoffer_product-page .row-Margin {
-    margin-bottom: -40px;
-}
-
-#contactUs-ProudactPage {
-    background-image: url("../img/Rectangle.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
-    position: relative;
-    z-index: -1;
-}
-
-.productweoffer_product-page .row-Margin-lg {
-    margin-bottom: -40px;
-}
-
-@media (max-width: 992px) {
-    .productweoffer_product-page .row-Margin-lg {
-        margin-bottom: -0px;
-    }
-}
-
-/*
-@media (max-width: 768px){
-    #contactUs-ProudactPage {
-        height: 300vh;
-    }
-} */
-
-#contactUs-ProudactPage::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    background-color: rgba(0, 0, 0, 0.772);
-    /* Black overlay with 50% opacity */
-}
-
-#contactUs-ProudactPage .card {
-
-    border-radius: 16px;
-}
-
-#contactUs-ProudactPage .card img {
-    aspect-ratio: 4/3;
-    object-fit: cover;
-    border-radius: 18px;
-}
-
-
-/* ///////////////////////////contact-page////////////////////////// */
-
-/* ///////////////////////////////////////////////////////////// */
-/* =====================(ProductsWeOffer-section)================= */
-/* ///////////////////////////////////////////////////////////// */
-
-.row-margin {
-    margin-bottom: -40px;
-}
-
-.text-bg-red {
-    background-color: var(--red);
-    color: var(--white-color);
-}
-
-#ProductsWeOffer .form-control {
-    border-radius: 0;
-    width: 35%;
-    border-color: #ccc;
-    border-width: 0 0 2px 0;
-    background-color: transparent;
-    border-style: none none solid none;
-    box-shadow: none;
-}
-
-#ProductsWeOffer .form-control:focus {
-    box-shadow: none;
-    background-color: transparent;
-    border-color: var(--red);
-}
-
-#ProductsWeOffer .form-label {
-    color: var(--red);
-    font-weight: bolder;
-    text-align: left;
-    margin: 10px;
-
-    display: block;
-    opacity: 1;
-    -webkit-transition: .333s ease top, .333s ease opacity;
-    transition: .333s ease top, .333s ease opacity;
-}
-
-
-
-.contact-us-page .card {
-    border-radius: 18px;
-}
-
-.contact-us-page .card-red {
-    background-color: var(--red);
-    color: var(--white-color);
-}
-
-.contact-us-page .card img {
-    aspect-ratio: 4/3;
-    border-radius: 16px;
-}
-
-.contact-us-page .card .btn-blur {
-    background-color: #722627;
-    color: var(--white-color);
-}
-
-
 /* ///////////////////////////story-page////////////////////////// */
 
 /* ///////////////////////////////////////////////////////////// */
@@ -600,7 +473,7 @@ body {
 
 #ProductsWeOffer-story {
     background-color: var(--red);
-    height: 90vh;
+    /* height: 90vh; */
     /*margin-bottom: 200px; */
 }
 
@@ -608,9 +481,9 @@ body {
     aspect-ratio: 16/9;
     border-radius: 18px;
     border: 0;
-    position: relative;
+    /* position: relative;
     top: -330px;
-    z-index: 9999;
+    z-index: 9999; */
     /* padding-top: -300px; */
 }
 
@@ -622,7 +495,7 @@ body {
 @media (max-width: 992px) {
     .storyCard1 {
         /* aspect-ratio: auto; */
-        top: -430px;
+        /* top: -430px; */
         aspect-ratio: 9/20;
     }
 
@@ -633,7 +506,7 @@ body {
 
     #ProductsWeOffer-story {
         background-color: var(--red);
-        height: 90vh;
+        /* height: 90vh; */
         /* margin-bottom: 370px; */
     }
 }
@@ -643,7 +516,7 @@ body {
 /* ///////////////////////////////////////////////////////////// */
 
 #WhyUs-story {
-    height: 90vh;
+    /* height: 90vh; */
     /* padding-top: 100px; */
     /* background-color: #DFDCFC; */
 }
@@ -652,9 +525,9 @@ body {
     aspect-ratio: 16/9;
     border-radius: 18px;
     border: 0;
-    position: relative;
+    /* position: relative;
     top: -230px;
-    z-index: 9999;
+    z-index: 9999; */
     /* padding-top: -300px; */
 }
 
@@ -665,14 +538,14 @@ body {
 
 @media (max-width: 992px) {
     #WhyUs-story {
-        height: 90vh;
+        /* height: 90vh; */
 
         /* padding-top: 50px; */
     }
 
     .storyCard2 {
         /* aspect-ratio: auto; */
-        top: -330px;
+        /* top: -330px; */
         aspect-ratio: 9/20;
     }
 
@@ -698,7 +571,7 @@ body {
     z-index: 0;
 
     /* padding-top: 240px;*/
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 /* @media (max-width: 992px){
@@ -721,9 +594,9 @@ body {
     aspect-ratio: 16/9;
     border-radius: 18px;
     border: 0;
-    position: relative;
+    /* position: relative;
     top: -120px;
-    z-index: 9999;
+    z-index: 9999; */
     /* padding-top: -300px; */
 }
 
@@ -735,7 +608,7 @@ body {
 @media (max-width: 992px) {
     .storyCard3 {
         /* aspect-ratio: auto; */
-        top: -220px;
+        /* top: -220px; */
         aspect-ratio: 9/20;
     }
 

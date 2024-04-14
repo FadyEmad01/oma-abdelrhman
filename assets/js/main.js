@@ -151,7 +151,47 @@ var swiper = new Swiper("#visitOurStore .swiper", {
     },
 });
 
-
+var swiper = new Swiper("#carousel .swiper", {
+  slidesPerView: 1,
+  spaceBetween: 100,
+  effect: "coverflow",
+  loop: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  grabCursor: true,
+  reverseDirection: false,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 1,
+    modifier: 5,
+    slideShadows: false,
+  },
+  breakpoints: {
+      320: {
+        slidesPerView: 1,
+        loop: true,
+        // enabled: true,
+      },
+      576: {  
+        slidesPerView: 1,
+        // enabled: false,
+      },
+      992: {
+        slidesPerView: 1,
+      },
+      1500: {
+        slidesPerView: 1,
+      },
+    },
+});
 
 
 document.addEventListener('DOMContentLoaded', function () {
