@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/whatsapp.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <a href="https://wa.me/201203289612" target="_blank">
+        <div class="whatsapp position-fixed">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </a> -->
+
+    <script>
+        // Function to create and append WhatsApp link after delay
+        function appendWhatsAppLink() {
+            setTimeout(function () {
+                var whatsappDiv = document.createElement('div');
+                whatsappDiv.innerHTML = `
+                <a href="https://wa.me/201203289612" target="_blank">
+        <div class="whatsapp position-fixed">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </a>
+                `;
+                document.body.appendChild(whatsappDiv);
+            }, 1000); // 5000 milliseconds = 5 seconds
+        }
+
+        // Call the function to append WhatsApp link after delay
+        appendWhatsAppLink();
+    </script>
+
+
+    <!-- plugin ==> (pureCounter) -->
+    <script src="assets/vendor/dist/purecounter_vanilla.js"></script>
+    <!-- end-plugin ==>  (pureCounter)-->
+    <script src="assets/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- plugin ==> (swiper) -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- end-plugin ==>  (swiper) -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

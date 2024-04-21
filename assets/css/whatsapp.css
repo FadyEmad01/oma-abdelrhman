@@ -1,0 +1,36 @@
+body{
+    height: 500vh;
+}
+.whatsapp{
+    background-color: #25D366;
+    width: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    /* 3shan t3ml center lel icon */
+    /* text-align: center;
+    align-content: center; */
+    /*  */
+    color: #FFFFFF;
+    font-size: 40px;
+    /* 3shan t3ml center lel icon btr2a tnya */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    animation: fadeIn 1s ease forwards; /* Apply fade-in animation */
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
